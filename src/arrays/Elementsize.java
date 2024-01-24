@@ -20,5 +20,6 @@ public class Elementsize {
         // Print the results
         System.out.println("Smallest number: " + min);
         System.out.println("Largest number: " + max);
+      
     }
 }

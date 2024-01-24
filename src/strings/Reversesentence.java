@@ -14,7 +14,7 @@ public class Reversesentence {
     }
 
     // Function to reverse each word in a sentence
-    private static String reverseWords(String sentence) {
+    public static String reverseWords(String sentence) {
         String[] words = sentence.split("\\s+");
         StringBuilder reversedSentence = new StringBuilder();
 

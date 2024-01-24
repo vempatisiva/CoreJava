@@ -19,7 +19,7 @@ public class Anagram {
     }
 
     // Function to check if two strings are anagrams
-    private static boolean checkAnagrams(String s1, String s2) {
+    public static boolean checkAnagrams(String s1, String s2) {
         // Remove spaces and convert to lowercase for case-insensitive comparison
         s1 = s1.replaceAll("\\s", "").toLowerCase();
         s2 = s2.replaceAll("\\s", "").toLowerCase();

@@ -15,7 +15,7 @@ public class StringRotation {
     }
 
     // Function to check if one string is a rotation of another
-    private static boolean isRotation(String s1, String s2) {
+    public static boolean isRotation(String s1, String s2) {
         // Check if lengths are different or if either string is empty
         if (s1.length() != s2.length() || s1.isEmpty() || s2.isEmpty()) {
             return false;
