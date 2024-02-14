@@ -1,7 +1,6 @@
 package arraylist;
 
 import java.util.ArrayList;
-
 public class ArrayListToArray {
     public static void main(String[] args) {
         // Creating an ArrayList of Strings
@@ -20,8 +19,6 @@ public class ArrayListToArray {
 
         // Displaying the Array after conversion
         System.out.print("Array after conversion: [");
-        
-        
         for (int i = 0; i < stringArray.length; i++) {
             System.out.print("\"" + stringArray[i] + "\"");
             if (i < stringArray.length - 1) {

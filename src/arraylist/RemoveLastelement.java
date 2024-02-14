@@ -17,21 +17,29 @@ public class RemoveLastelement {
 		num.add(89);
 		num.add(9);
 		
+		//System.out.println(num.indexOf());
 		
-		//System.out.println(num.size());
 		System.out.println("Printing Before removal of last element");
 		for (int i =0; i<num.size(); i++) {
 			
 			System.out.println(num.get(i));
 		
 		}
+		//num.forEach(System.out::println);
 		
-		num.remove(num.size()-1); // removing last element here\
-		
+		 
+		// removing last element here\
+		removeLastElement(num);
 		System.out.println("Printing After removal of last element"); // here i am using enhanced for loop
 		for (Integer i : num){
 			System.out.println(i);;
 		}
+	}
+
+	public static void removeLastElement(ArrayList<Integer> integerList) {
+		// TODO Auto-generated method stub
+		if (!integerList.isEmpty())
+			integerList.remove(integerList.size()-1);
 	}
 
 

@@ -1,17 +1,15 @@
 package functionalInterfaces;
-
 public class Palindrome {
-	
-	    public static boolean isPalindrome(int number) {
-	        int originalNumber = number;
-	        int reversedNumber = 0;
+    public static boolean isPalindrome(int num) {
+            int original = num;
+            int reversed = 0;
 
-	        while (number > 0) {
-	            int digit = number % 10;
-	            reversedNumber = reversedNumber * 10 + digit;
-	            number /= 10;
-	        }
+            while (num > 0) {
+                int lastDigit = num % 10;
+                reversed = reversed * 10 + lastDigit;
+                num /= 10;
+            }
 
-	        return originalNumber == reversedNumber;
-	    }
-	}
+            return original == reversed;
+        }
+}

@@ -3,11 +3,11 @@ package arraylist;
 import java.util.ArrayList;
 
 public class Traverse {
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ArrayList<Integer> num = new ArrayList<>();
+		ArrayList<Integer> num = new ArrayList<>() ;
 		num.add(5);
 		num.add(45);
 		num.add(78);

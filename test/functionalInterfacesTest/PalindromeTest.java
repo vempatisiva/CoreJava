@@ -1,5 +1,4 @@
 package functionalInterfacesTest;
-
 import org.junit.Test;
 
 import functionalInterfaces.Palindrome;
@@ -9,15 +8,12 @@ public class PalindromeTest {
 
         @Test
         public void testIsPalindromeTrue() {
-            assertTrue(Palindrome.isPalindrome(1221));
+            assertTrue(functionalInterfaces.Palindrome.isPalindrome(1221));
         }
 
         @Test
         public void testIsPalindromeFalse() {
-            assertFalse(Palindrome.isPalindrome(12345));
+            assertFalse(functionalInterfaces.Palindrome.isPalindrome(12345));
         }
     }
-
-
-
 
